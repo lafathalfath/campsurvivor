@@ -1,0 +1,67 @@
+.contact-page{
+    background-color: #f3f3f3;
+    /* height: 67vh; */
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-wrapper{
+    padding: 50px;
+    margin: 3vw;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+.contact-page>.contact-wrapper>p{
+    font-size: 18px;
+} 
+.waktu, .tempat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+.contact-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+.contact-direct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 28px;
+    border: 1px solid rgb(170, 127, 41);
+    border-radius: 100px;
+    background-color: rgb(170, 127, 41);
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+}
+.contact-direct:hover{
+    background-color: rgb(246, 192, 126);
+    border: 1px solid rgb(246, 192, 126);
+    color: black;
+}.direct-icon-ig{
+    border: 1px solid rgb(170, 127, 41);
+    border-radius: 100px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direct-icon-ig:hover{
+    border: 1px solid rgb(246, 192, 126);
+}
+.direct-icon-ig>img{
+    width: 30px;
+    padding: 8px 8px;
+}

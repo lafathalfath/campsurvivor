@@ -1,0 +1,28 @@
+footer{
+    border-top: 1px solid #000;
+}
+.footer-container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+p{
+    font-size: 14px;
+}
+.footer-container>p>span{
+    color: #734601;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer-icon{
+    width: 70%;
+}

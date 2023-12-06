@@ -1,0 +1,145 @@
+p{
+    font-size: 18px;
+}
+.jumbotron{
+    background-color: #f3f3f3;
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255), rgba(0, 0, 0, 0)), url('../assets/img/Coffee/vietnam\ drip.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: fit-content;
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+video{
+    width: 50%;
+}
+.jumbotron>h1{
+    color: #000;
+    font-size: large;
+    width: 40vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.sp1{
+    font-size: 25px;
+    color: rgb(170, 127, 41);
+}
+.sp2{
+    font-size: 16px;
+}
+.section-title{
+    text-align: start;
+    color: #E57C23;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0 0 0 30px;
+    border-left: 4px solid #2D5C8B;
+}
+.signature-menu{
+    padding: 3vw;
+}
+.signature-menu>p{
+    text-align: center;
+    font-size: 18px;
+}
+.home-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menu-card-onHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+}
+.menu-card-onHome>img{
+    width: 100%;
+    border-radius: 100px;
+}
+.card-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+}
+.to-menu-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-menu-btn{
+    background-color: bisque;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 500;
+}
+.to-menu-btn:hover{
+    color: white;
+    background-color: rgb(170, 127, 41);
+}
+@media only screen and (max-width:500px){
+    .jumbotron>h1{
+        width: 100%;
+    }
+    .menu-card-onHome{
+        width: 110px;
+        height: 150px;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        /* border: 1px solid black; */
+    }
+    .event-card-container, .travelism-card-container, .merch-card-container{
+        height: 250px !important;
+    }
+    /* .event-card-container::-webkit-scrollbar, .travelism-card-container::-webkit-scrollbar, .merch-card-container::-webkit-scrollbar{
+        display: none;
+    } */
+}
+@media only screen and (max-width: 580px){
+    video{
+        width: 100%;
+    }
+}
+.event, .travelism, .merch{
+    padding: 3vw;
+    background-color: #f3f3f3;
+}
+.event-card-container, .travelism-card-container, .merch-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    height: 400px;
+    overflow-x: scroll;
+}
+.event-card-container>img, .travelism-card-container>img, .merch-card-container>img{
+    height: 100%;
+}
+/* .travelism-card-container{
+    overflow-x: scroll;
+} */
+/* .travelism-card-container::-webkit-scrollbar{
+    display: none;
+} */
+/* .travelism-card-container>img{
+    height: 100%;
+} */

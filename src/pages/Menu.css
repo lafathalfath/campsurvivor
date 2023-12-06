@@ -1,0 +1,85 @@
+.menu{
+    padding: 3vw;
+}
+.menu>.section-title>span{
+    font-size: 20px;
+}
+.filter{
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.filter-container::-webkit-scrollbar{
+    display: none;
+}
+.filter-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.filter-btn>span{
+    opacity: 0;
+}
+.filter-btn:hover{
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+}
+.menu-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.menu-card{
+    width: 200px;
+    height: 300px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 4px #888888;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.menu-card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.menu-card>img{
+    width: 100%;
+    border-radius: 8px;
+}
+.menu-card-title{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.menu-card-price{
+    font-size: 18px;
+    font-weight: 400;
+}
